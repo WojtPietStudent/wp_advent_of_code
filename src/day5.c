@@ -3,7 +3,7 @@
 int
 day5part1()
 {
-	FILE *flops=fopen("day5data.txt","r");
+	FILE *flops=fopen("../data/day5data.txt","r");
 	
 	char anyline[512],*delimme;
 	
@@ -50,7 +50,7 @@ day5part1()
 int
 day5part2()
 {
-	FILE *flops=fopen("day5data.txt","r");
+	FILE *flops=fopen("../data/day5data.txt","r");
 	
 	char anyline[512],*delimme;
 	

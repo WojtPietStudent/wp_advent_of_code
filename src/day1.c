@@ -10,7 +10,7 @@ int
 main(int argc,char *argv[])
 {
 	FILE *advr;
-	advr=fopen("day1data.txt","r");
+	advr=fopen("../data/day1data.txt","r");
 	int list1[1024],list2[1024],ll=0,lista,listb;
 	while(fscanf(advr,"%d %d\n",&list1[ll],&list2[ll])>0){
 		ll++;	
@@ -27,6 +27,6 @@ main(int argc,char *argv[])
 		listb+=occucnt*list1[i];
 	}
 	fclose(advr);
-	printf("p1:%d\np2:%d\n",lista,listb);
+	printf("p1:%d , p2:%d\n",lista,listb);
 	return 0;
 }

@@ -4,7 +4,7 @@
 int
 main()
 {
-	FILE *xmasf=fopen("day4data.txt","r");
+	FILE *xmasf=fopen("../data/day4data.txt","r");
 	if(xmasf==NULL){
 		perror("xmasf:");
 		return 1;
@@ -57,7 +57,7 @@ main()
 			((searchme[y+1][x-1]=='M'&&searchme[y-1][x+1]=='S')||(searchme[y+1][x-1]=='S' && searchme[y-1][x+1]=='M'))));
 	}	
 
-	printf("p1: %d p2: %d\n",totx,tota);
+	printf("p1: %d , p2: %d\n",totx,tota);
 	fclose(xmasf);
 	return 0;
 }

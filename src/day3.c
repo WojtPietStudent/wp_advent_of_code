@@ -5,7 +5,7 @@
 int
 part1d3()
 {
-	FILE *mulf=fopen("day3data.txt","r");
+	FILE *mulf=fopen("../data/day3data.txt","r");
 	
 	int muld=0,num1l=0,num2l=0,totres=0;
 	char num1[16],num2[16],opch,cmps[]="mul(,)";
@@ -46,7 +46,7 @@ part1d3()
 int
 part2d3()
 {
-	FILE *mulf=fopen("day3data.txt","r");
+	FILE *mulf=fopen("../data/day3data.txt","r");
 	
 	int muld=0,
 	    num1l=0,num2l=0,totres=0,
@@ -103,7 +103,7 @@ part2d3()
 int
 main()
 {
-	printf("%d\n",part1d3());
-	printf("%d\n",part2d3());
+	printf("p1 : %d , ",part1d3());
+	printf("p2 : %d\n",part2d3());
 	return 0;
 }

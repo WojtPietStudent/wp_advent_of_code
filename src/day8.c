@@ -125,8 +125,8 @@ int
 main()
 {
 	towerLocs the_map,the_map2;
-	twloc_load("day8data.txt",&the_map);
-	twloc_load("day8data.txt",&the_map2);
+	twloc_load("../data/day8data.txt",&the_map);
+	twloc_load("../data/day8data.txt",&the_map2);
 	printf("p1 : %d , p2 : %d\n",twloc_anode(&the_map),twloc_anode_harmonic(&the_map2));
 	return 0;
 }

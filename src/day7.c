@@ -133,6 +133,6 @@ oper_all_loop_cat(const char *numpath)
 int
 main()
 {
-	printf("p1 : %lu , p2 : %lu\n",oper_all_loop("day7data.txt"),oper_all_loop_cat("day7data.txt"));
+	printf("p1 : %lu , p2 : %lu\n",oper_all_loop("../data/day7data.txt"),oper_all_loop_cat("../data/day7data.txt"));
 	return 0;
 }

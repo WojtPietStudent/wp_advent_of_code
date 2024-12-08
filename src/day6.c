@@ -264,9 +264,9 @@ int
 main()
 {
 	patrolMap the_map,the_map2;
-	pmap_load("day6data.txt",&the_map);
+	pmap_load("../data/day6data.txt",&the_map);
 	printf("p1 : %d",pmap_develop(&the_map));
-	pmap_load("day6data.txt",&the_map2);
+	pmap_load("../data/day6data.txt",&the_map2);
 	printf(" , p2 : %d\n",pmap_block(&the_map2));
 	return 0;
 }

@@ -6,7 +6,7 @@ void
 ogcode()
 {
 	FILE *advr;
-	advr=fopen("day2data.txt","r");
+	advr=fopen("../data/day2data.txt","r");
 	if(advr==NULL){return;}
 	char *ina,bufv[1024];
 	int inde=0,last=0,now=0,tot=0,inne=0,totin=0,ilo=0,dilf=0;
@@ -97,7 +97,7 @@ int
 main(int argc,char *argv[])
 {
 	FILE *advr;
-	advr=fopen("day2data.txt","r");
+	advr=fopen("../data/day2data.txt","r");
 	if(advr==NULL){return 1;}
 	char *ina,bufv[1024];
 	int now[64],tot=0,inne=0,totin=0,crl1=0,crl2=0;
@@ -117,6 +117,6 @@ main(int argc,char *argv[])
 		
 	}
 	fclose(advr);
-	printf("p1:%d p2:%d\n",crl1,crl2);
+	printf("p1 : %d , p2 : %d \n",crl1,crl2);
 	return 0;
 }
